@@ -26,4 +26,12 @@ public class Person {
     public String getPostort() {
         return postort;
     }
+
+    public void setNamn(String namn) {
+        this.namn = namn;
+    }
+
+    public void setGatuAdress(String gatuAdress) {
+        this.gatuAdress = gatuAdress;
+    }
 }
