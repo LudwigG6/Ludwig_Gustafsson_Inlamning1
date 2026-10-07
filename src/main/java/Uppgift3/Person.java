@@ -34,4 +34,16 @@ public class Person {
     public void setGatuAdress(String gatuAdress) {
         this.gatuAdress = gatuAdress;
     }
+
+    public void setPostNummer(String postNummer) {
+        this.postNummer = postNummer;
+    }
+
+    public void setPostort(String postort) {
+        this.postort = postort;
+    }
+
+    public void setFodelsedatum(String fodelsedatum) {
+        this.fodelsedatum = fodelsedatum;
+    }
 }
