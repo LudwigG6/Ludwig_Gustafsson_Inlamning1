@@ -3,13 +3,13 @@ package Uppgift1;
 public class Matratt {
     public String namn;
     public int pris;
-    public String type;
+    public String typ;
     public int kalorier;
 
-    public Matratt(String namn, int pris, String type, int kalorier) {
+    public Matratt(String namn, int pris, String typ, int kalorier) {
         this.namn = namn;
         this.pris = pris;
-        this.type = type;
+        this.typ = typ;
         this.kalorier = kalorier;
     }
     @Override
@@ -17,7 +17,7 @@ public class Matratt {
         return "Matratt " +
                 "namn='" + namn + '\'' +
                 ", pris=" + pris +
-                ", type='" + type + '\'' +
+                ", typ='" + typ + '\'' +
                 ", kalorier=" + kalorier +
                 ' ';
     }
